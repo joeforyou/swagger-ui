@@ -1,3 +1,15 @@
+# Making Swagger UI Section 508 Compliant
+
+This fork is intended to improve the accessibility of the Swagger UI in order to support [Section 508 standards](https://www.section508.gov/). Another fork by [18F](https://github.com/18F/swagger-ui) addresses many issues, but is still based on an old version.
+
+I've forked version 2.2.10 and changed the following items so far:
+
+-	CSS colors now have 508 compliant [contrast ratio](https://pages.18f.gov/accessibility/color/) for background and foreground.
+-	Added CSS styling to address the issue of [invisible elements for screenreaders](https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01).
+-	Input fields [labeled](https://pages.18f.gov/accessibility/forms/).
+-	[Language](https://pages.18f.gov/accessibility/properties/) attribute added to HTML.
+
+
 # Swagger UI
 
 [![Build Status](https://travis-ci.org/swagger-api/swagger-ui.svg?branch=master)](https://travis-ci.org/swagger-api/swagger-ui)
